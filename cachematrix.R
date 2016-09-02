@@ -1,4 +1,5 @@
-## Put comments here that give an overall description of what your
+## The function makeCacheMatrix creates an instance of the matrix and the inverse of the matrix in the memory 
+## This facilitates that the inverse calculation need not be done everytime for the same object
 ## functions do
 
 ## Write a short comment describing this function
