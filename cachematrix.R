@@ -1,8 +1,8 @@
-## The function makeCacheMatrix creates an instance of the matrix and the inverse of the matrix in the memory 
+## The functions in this file manage the cache of matrices and makes it available when required
 ## This facilitates that the inverse calculation need not be done everytime for the same object
 ## functions do
 
-## Write a short comment describing this function
+## The function makeCacheMatrix creates an instance of the matrix and the inverse of the matrix in the memory 
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -24,7 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## The function cacheSolve checks the cache for the value of the object passed. If available it shall return the inverse, else calculate 
+## the inverse and set the same in the matrix object
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
